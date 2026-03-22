@@ -55,16 +55,16 @@ const Hero = () => {
           variants={itemVariants}
           className="text-3xl md:text-5xl lg:text-6xl font-bold text-slate mb-6"
         >
-          Front-End Developer | Python-Powered Web Apps
+          Full-Stack Developer | React & FastAPI
         </motion.h2>
 
         <motion.p
           variants={itemVariants}
           className="text-slate text-lg md:text-xl max-w-2xl mb-8 leading-relaxed"
         >
-          I'm a developer passionate about creating clean, intuitive user
-          interfaces and building scalable web applications. Currently focused
-          on React, modern JavaScript, and Python-based backend development.
+          I build full-stack web applications using React, TypeScript, and FastAPI.
+          Passionate about solving real problems, debugging complex systems, and
+          deploying production-ready products.
         </motion.p>
 
         <motion.div variants={itemVariants}>

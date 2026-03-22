@@ -5,25 +5,25 @@ import { FaBriefcase } from 'react-icons/fa';
 
 const experiences = [
   {
-    title: 'Front-End Developer Intern',
-    company: 'Tech Company',
-    period: '2024 - Present',
+    title: 'Full-Stack Development Intern',
+    company: 'Softronics',
+    period: 'Jun 2024 - Nov 2024',
     description: [
-      'Developed responsive web applications using React and modern JavaScript',
-      'Collaborated with design teams to implement pixel-perfect UI components',
-      'Optimized application performance and improved user experience',
-      'Participated in code reviews and agile development processes',
+      'Developed responsive React.js interfaces reducing page load time by 30% through code splitting and lazy loading for 200+ daily users',
+      'Built 15+ RESTful APIs with MongoDB integration handling 1,000+ requests per day',
+      'Debugged frontend performance issues, identified bottlenecks, and implemented fixes',
+      'Collaborated using Git workflows — feature branching, pull requests, and code reviews',
     ],
   },
   {
-    title: 'MERN Stack Learning',
-    company: 'Self-Directed',
-    period: '2023 - 2024',
+    title: 'Self-Directed Learning & Projects',
+    company: 'Independent',
+    period: '2023 - Present',
     description: [
-      'Built full-stack applications using MongoDB, Express, React, and Node.js',
-      'Implemented RESTful APIs and authentication systems',
-      'Created responsive front-end interfaces with React and Tailwind CSS',
-      'Deployed applications to cloud platforms',
+      'Built MediNutri — AI health platform with BERT NLP, FastAPI, React/TypeScript, deployed on Vercel + Render',
+      'Built Buildify — AI PC builder for Indian market with React, TypeScript, Supabase, and GPT-powered assistant',
+      'Self-taught React, TypeScript, FastAPI, PostgreSQL, cloud deployment through building real projects',
+      'Finalist in Debugging Competition at Nehru College of Arts & Science',
     ],
   },
 ];

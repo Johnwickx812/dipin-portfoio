@@ -2,43 +2,29 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import medinutriImg from '../assets/projects/medinutri.png';
+import buildifyImg from '../assets/projects/buildify.png';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
+    title: 'MediNutri - AI-Powered Health & Nutrition Platform',
+    image: medinutriImg,
     description:
-      'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'Full-stack platform preventing food-drug interactions using BERT NLP (92% accuracy), FastAPI backend with 25+ endpoints, and React/TypeScript frontend. Deployed on Vercel + Render + Neon PostgreSQL with JWT authentication, real-time safety alerts, multilingual support, and personalized diet recommendations.',
+    tech: ['React.js', 'TypeScript', 'FastAPI', 'PostgreSQL', 'BERT', 'JWT', 'Tailwind CSS'],
+    github: 'https://github.com/Johnwickx812/MediNutri',
+    live: 'https://medinutri.vercel.app',
     featured: true,
   },
   {
-    title: 'Task Management App',
+    title: 'Buildify - AI-Powered PC Builder for Indian Market',
+    image: buildifyImg,
     description:
-      'A collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.',
-    tech: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+      'Smart PC builder application for Indian buyers. Users select CPU brand, use-case, and budget to get AI-powered component recommendations with live INR pricing. Features a multi-step guided wizard, BuilderPro AI assistant with streaming responses, compatibility checks, and price optimization.',
+    tech: ['React.js', 'TypeScript', 'Tailwind CSS', 'Shadcn/UI', 'Vite', 'Supabase'],
+    github: 'https://github.com/Johnwickx812/Buildify',
+    live: 'https://buildify-rust.vercel.app/',
     featured: true,
-  },
-  {
-    title: 'Weather Dashboard',
-    description:
-      'A responsive weather application that displays current conditions and forecasts. Integrates with weather APIs and features interactive charts and maps.',
-    tech: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    featured: true,
-  },
-  {
-    title: 'Social Media Dashboard',
-    description:
-      'A comprehensive dashboard for managing social media accounts with analytics, scheduling, and engagement tracking. Built with React and RESTful APIs.',
-    tech: ['React', 'Node.js', 'PostgreSQL', 'Chart.js'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    featured: false,
   },
 ];
 
@@ -94,7 +80,7 @@ const Projects = () => {
                     transition={{ duration: 0.3 }}
                   >
                     <div className="bg-light-navy rounded-lg overflow-hidden border border-lightest-navy">
-                      <div className="aspect-video bg-lightest-navy"></div>
+                      <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
                     </div>
                     <div className="absolute inset-0 bg-accent/20 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"></div>
                   </motion.div>

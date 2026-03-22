@@ -33,20 +33,18 @@ const About = () => {
             className="space-y-4 text-slate leading-relaxed"
           >
             <p>
-              Hello! I'm Dipin Dev, a front-end developer ,
-              passionate about crafting exceptional user experiences through
-              clean, efficient code.
+              Hello! I'm Dipin Dev, a Full-Stack Developer from Palakkad, Kerala, passionate about 
+              building real-world web applications that solve actual problems.
             </p>
             <p>
-              I specialize in building responsive and high-performance web applications
-              using React and modern JavaScript, with a strong focus on usability,
-              accessibility, and smooth user interactions.
+              I specialize in React and FastAPI, with hands-on experience building and deploying 
+              scalable full-stack applications. I enjoy debugging, understanding how systems work, 
+              and turning ideas into working products.
             </p>
             <p>
-              Currently, I’m focusing on React with Python-based backend development,
-              building scalable and maintainable full-stack applications. I enjoy
-              solving real-world problems and turning ideas into reliable digital 
-              solutions through code.
+              Currently in my final year of BCA at Akshaya College, Bharathiar University. 
+              I'm actively looking for full-stack or frontend developer roles where I can 
+              contribute, grow, and build things that matter.
             </p>
           </motion.div>
 
