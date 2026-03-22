@@ -31,6 +31,8 @@ const Contact = () => {
         </p>
         <motion.a
           href="mailto:dipinibl@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block border-2 border-accent text-accent px-8 py-4 font-mono text-sm hover:bg-accent/10 transition-colors"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
