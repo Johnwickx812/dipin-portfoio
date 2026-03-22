@@ -25,9 +25,9 @@ const Contact = () => {
           Get In Touch
         </h2>
         <p className="text-slate text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
-          I'm currently looking for new opportunities, whether it's a full-time
-          position or freelance work. If you have a project in mind or just
-          want to say hello, feel free to reach out!
+          I'm actively looking for full-time developer roles.
+          My college ends April 2026 and I'm ready to contribute from day one.
+          If you think I'd be a good fit or just want to connect, my inbox is open.
         </p>
         <motion.a
           href="mailto:dipinibl@gmail.com"
